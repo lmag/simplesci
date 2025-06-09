@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 2em;
+    color: #333;
+    position: relative;
+}
+
+.contact-header {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    text-align: right;
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-header .horaires {
+    margin: 0;
+    font-weight: 600;
+}
+
+.contact-header .phone-link {
+    font-weight: 600;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-header .phone-link:hover {
+    text-decoration: underline;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 1em;
+    padding-top: 3em;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.property-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.property-card.coming-soon {
+    opacity: 0.7;
+}
+
+.property-card .card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    background-color: #eee;
+}
+
+.card-content {
+    padding: 1.5em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content .title {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    color: #2c3e50;
+}
+
+.card-content .ad-reference {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.card-content .description {
+    font-size: 1em;
+    color: #555;
+    flex-grow: 1;
+    margin-bottom: 1.5em;
+}
+
+.card-content .coming-soon-text {
+    font-style: italic;
+    color: #777;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+/* Styles pour les nouvelles informations */
+
+.card-content .annonceur {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: -0.8em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.property-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espace entre les items */
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #f0f0f0; /* Ligne de séparation */
+    flex-grow: 1; /* Pousse le bouton en bas */
+    align-content: flex-start;
+}
+
+.spec-item {
+    font-size: 0.9em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 6px; /* Espace entre l'icône et le texte */
+}
+
+/* NOUVEAUX STYLES POUR LE PRIX */
+
+.price-container {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.price-main {
+    font-size: 2em;
+    font-weight: 600;
+    color: #2c3e50;
+    display: inline-block; /* Pour que le type se place à côté */
+}
+
+.price-type {
+    font-size: 1em;
+    font-weight: 300;
+    color: #555;
+    margin-left: 8px;
+}
+
+.price-charges {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 0.3em;
+}

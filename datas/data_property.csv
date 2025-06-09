@@ -1,0 +1,4 @@
+sci_name,reference,titre,annonceur,description,loyer,loyer_type,charges,surface,type_bien,colocation,image_file,virtual_tour_url,status
+SCI OZA,Réf: OZA-0069,"Local professionnel en face du RockStore","SCI OZA","Un espace de travail moderne et spacieux de 91 m², idéalement situé avec une excellente visibilité. Parfait pour professions libérales, start-up, restauration froide.",1600,HT,100,91,"Local commercial","Non",oza-pj2411-0069.jpg,https://view.ricoh360.com/49eba284-97ca-4f54-af2c-952f18e69815,disponible
+SCI KLOA,Réf: KLOA-PJ2105-0024,"Grand appartement T4 avec balcon","SCI KLOA","Appartement de 4 pièces rénové, il a 2 ans proche des commodités.",550,TTC,50,85,"Appartement","Oui",kloa_pj2105-0024.jpg,,disponible
+SCI ESL,Réf: ESL-0002,"Studio meublé pour couple d'étudiants","SCI ESL","Idéal pour un couple d'étudiant, ce studio sera bientôt disponible mi-juin 2025.",850,TTC,50,37,"Studio","Non",sci-default.jpg,,disponible
