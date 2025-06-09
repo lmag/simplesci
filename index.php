@@ -24,7 +24,7 @@
 
     <div class="catalog-container">
         <?php
-        $fichier_csv = '/datas/data_property.csv';
+        $fichier_csv = 'datas/data_property.csv';
         $is_header = true;
 
         if (($handle = fopen($fichier_csv, 'r')) !== FALSE) {
@@ -93,7 +93,7 @@
             }
             fclose($handle);
         } else {
-            echo "<p style='text-align:center; color:red;'>Erreur : Impossible de trouver le fichier des annonces (annonces.csv).</p>";
+            echo "<p style='text-align:center; color:red;'>Erreur : Impossible de trouver le fichier des annonces (data_property.csv).</p>";
         }
         ?>
     </div>
